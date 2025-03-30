@@ -6,6 +6,7 @@ twitter_username: k_tsj
 github_username:  k-tsj
 
 # Build settings
+timezone: Asia/Tokyo
 permalink: /:year/:month/:day/:title:output_ext
 
 theme: minima
