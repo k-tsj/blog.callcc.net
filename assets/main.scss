@@ -1,0 +1,32 @@
+---
+---
+@import "{{ site.theme }}";
+
+.post-title {
+  color: white !important;
+  background-color: #6080c0 !important;
+  padding: 0.2em;
+}
+
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
+article a:link {
+  color: rgb(0,160,80);
+}
+
+article a:visited {
+  color: #ADA761;
+}

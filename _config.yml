@@ -1,0 +1,16 @@
+title: "継続にっき"
+baseurl: ""
+url: ""
+
+twitter_username: k_tsj
+github_username:  k-tsj
+
+# Build settings
+permalink: /:year/:month/:day/:title:output_ext
+
+theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+plugins:
+  - jekyll-feed
