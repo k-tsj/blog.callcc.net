@@ -18,7 +18,7 @@ File.open("foo.txt") { (in: BufferedReader) =>
 }
 ```
 
-と、これはScala 2.7までのお話。(注1)
+と、これはScala 2.7までのお話。[^1]
 
 先日[水島さん](http://d.hatena.ne.jp/kmizushima/)がポストした[2.8のimplicit parameterの応用例](http://gist.github.com/408693)を見て、
 2.8なら出来るかもと試していたら上記のコードが動くようになった([gist](http://gist.github.com/418960)(2.8.0 RC3で動作))。
@@ -56,4 +56,4 @@ object FileOpener {
 }
 ```
 
-* 注1: たぶん。実は2.7でも出来るかも。。。
+[^1]: たぶん。実は2.7でも出来るかも。。。

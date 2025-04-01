@@ -56,7 +56,7 @@ match(10) {
 }
 ```
 
-ちなみに、[ruby-trunk - Feature #4085 : Refinements and nested methods](http://bugs.ruby-lang.org/issues/4085)をサポートする環境であれば、 次のような書き方も出来るようになっている(注1)。Refinements素晴らしい。
+ちなみに、[ruby-trunk - Feature #4085 : Refinements and nested methods](http://bugs.ruby-lang.org/issues/4085)をサポートする環境であれば、 次のような書き方も出来るようになっている[^1]。Refinements素晴らしい。
 
 ```ruby
 def balance(left, key, right)
@@ -71,4 +71,4 @@ def balance(left, key, right)
 end
 ```
 
-* 注1: r29944向けパッチで動作確認済み
+[^1]: r29944向けパッチで動作確認済み
