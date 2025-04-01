@@ -36,7 +36,7 @@ object File extends Resource {
 }
 ```
 
-#### 追記
+## 追記
 大事なことを書き忘れた。
 
 上記のコードはBuffered〜だけを対象にしたものではないです。
